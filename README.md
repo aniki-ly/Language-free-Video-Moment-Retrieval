@@ -10,15 +10,11 @@ Given an untrimmed video and a language query depicting a specific temporal mome
 
 ---
 ## Environment
-This repository is implemented base on [PyTorch](http://pytorch.org/) with Anaconda.</br>
-Refer to below instruction or use **Docker** (dcahn/psvl:latest). </br>
-
-
 
 ### Get the code
 - Clone this repo with git, please use:
 ```bash
-git clone https://github.com/gistvision/PSVL.git
+git clone https://github.com/aniki-ly/Language-free-training-for-zero-shot-video-grounding.git
 ```
 
 ### Requirements and Installation
@@ -44,12 +40,19 @@ We recommended the following dependencies.
 
 ## Download
 
-### Dataset & Pretrained model
+### Dataset
 
 - This [link](https://drive.google.com/file/d/1Vjgm2XA3TYcc4h9IWR5k5efU-bXNir5f/view?usp=sharing) is connected for downloading video features used in this paper. </br>
 : After downloading the video feature, you need to set the `data path` in a config file. </br> 
 
-- This [link](https://drive.google.com/file/d/1M2FX2qkEvyked50LSc9Y5r87GBnpohSX/view?usp=sharing) is connected for downloading pre-trained model.
+
+## Performance
+
+**1. Charades Dataset**
+| Repo | mIoU | Rank1@0.3 | Rank1@0.5 | Rank1@0.7 |
+| ---- |:-------------:| :-----:|:-----:|:-----:|
+| Official | 36.05 | 52.95 | 37.24 | 19.33 |
+| Ours | 34.35 | 50.23 | 36.57 | 17.96 | 
 
 ## Evaluating pre-trained models
 
@@ -75,7 +78,7 @@ MIT Lisence
 
 
 ## Contact
-If you have any questions, please send e-mail to me (skaws2012@gmail.com, daechulahn@gm.gist.ac.kr)
+If you have any questions, please send e-mail to me (aniki.yulu@gmail.com)
 
 ## Source Code
 This repository is based on [PSVL](https://github.com/gistvision/PSVL), [CLIP](https://github.com/openai/CLIP), [APT](https://github.com/StanfordVL/atp-video-language) and [Lafite](https://github.com/drboog/Lafite).
