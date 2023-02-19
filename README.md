@@ -34,7 +34,7 @@ We recommended the following dependencies.
 - wandb
 
 #### Working environment
-- Nvidia V100 (32G)
+- RTX2080Ti (32G)
 - Ubuntu 18.04.5
 - pytorch 1.6.1
 
