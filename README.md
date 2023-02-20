@@ -52,7 +52,7 @@ We recommended the following dependencies.
 | Repo | mIoU | Rank1@0.3 | Rank1@0.5 | Rank1@0.7 |
 | ---- |:-------------:| :-----:|:-----:|:-----:|
 | Official | 36.05 | 52.95 | 37.24 | 19.33 |
-| Ours | 34.35 | 50.23 | 36.57 | 17.96 | 
+| Ours | 34.42 | 51.23 | 36.04 | 18.05 | 
 
 ## Evaluating pre-trained models
 
